@@ -1,0 +1,30 @@
+/* styles */
+/* called by your view template */
+
+/* You might want to try something fancier: */
+/* less: http://lesscss.org/ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  width: 90vw;
+  margin: 25px auto;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p.examples {
+  margin: 10px;
+}
+
+span.examples {
+  font-size: 0.8em;
+  background-color: rgba(255,0,0,.05);
+  color: red;
+  padding: 5px;
+}
